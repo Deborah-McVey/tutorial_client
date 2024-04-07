@@ -1,27 +1,46 @@
-# TutorialClient
+Angular 17 CRUD example with REST API
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+BezKoder 2/4/2024
 
-## Development server
+https://www.bezkoder.com/angular-17-crud-example/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This is the Front End for tutorial_api (Ruby on Rails)
 
-## Code scaffolding
+Angular 17.2
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+CSS
 
-## Build
+SSR - no
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+npm i bootstrap@5.3.3
 
-## Running unit tests
+ng g class models/tutorial
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ng g c components/add-tutorial
+ng g c components/tutorial-details
+ng g c components/tutorials-list
 
-## Running end-to-end tests
+ng g s services/tutorial
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+angular.json
 
-## Further help
+"node_modules/bootstrap/dist/css/bootstrap.min.css",
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+"node_modules/jquery/dist/jquery.slim.min.js",
+"node_modules/popper.js/dist/umd/popper.min.js",
+"node_modules/bootstrap/dist/js/bootstrap.min.js"
+
+app.config.ts
+
+provideHttpClient()
+
+app.routes.ts
+
+lazy-load components
+
+ng s -o to test if the app is running in browser
+
+app.component.html
+
+
+
