@@ -16,6 +16,11 @@ npm i bootstrap@5.3.3
 
 ng g class models/tutorial
 
+id
+title
+description
+published (boolean)
+
 ng g c components/add-tutorial
 ng g c components/tutorial-details
 ng g c components/tutorials-list
@@ -42,5 +47,11 @@ ng s -o to test if the app is running in browser
 
 app.component.html
 
+tutorials-list.component.ts 
 
+add pagination 
+
+https://www.bezkoder.com/angular-17-pagination-ngx/
+
+** replaced ngOninit with tutorials in html
 
